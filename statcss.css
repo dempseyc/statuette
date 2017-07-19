@@ -1,0 +1,58 @@
+body {
+  list-style-type: none;
+  text-justify: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+#navmenu {
+  display: block;
+  font-family: Courier;
+  font-size: 1rem;
+  text-justify: center;
+  margin: 0 0.15rem;
+}
+
+#navmenu ul {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Courier;
+  font-size: 2rem;
+  margin: 0 0.15rem 1.5rem 0;
+}
+
+#navmenu li {
+  display: inline;
+}
+
+#header {
+  z-index: 10;
+  clear: both;
+}
+
+#songs img {
+  display: block;
+  position: relative;
+  float: left;
+  padding-top: 2rem;
+}
+
+#songs iframe {
+  float: none;
+  padding-left: 5%;
+  padding-top: 1rem;
+}
+
+#images {
+  padding-top: 2rem;
+}
